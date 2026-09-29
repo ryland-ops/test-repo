@@ -1,4 +1,4 @@
 function foo(){
-  const bigValue = 0;
-  return bigValue;
+  const big_value = 0;
+  return big_value;
 }
