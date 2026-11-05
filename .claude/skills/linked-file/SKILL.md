@@ -1,1 +1,1 @@
-../../../shared/linked-dir-skill/SKILL.md
+../../../shared/linked-file-skill/SKILL.md
