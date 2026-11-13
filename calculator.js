@@ -26,4 +26,36 @@ function subtract(a, b) {
   return a - b;
 }
 
-module.exports = { add, subtract };
+/**
+ * Multiplies two numbers.
+ *
+ * @param {number} a - The first factor.
+ * @param {number} b - The second factor.
+ * @returns {number} The product of a and b.
+ *
+ * @example
+ * multiply(4, 3); // 12
+ */
+function multiply(a, b) {
+  return a * b;
+}
+
+/**
+ * Divides the first number by the second.
+ *
+ * @param {number} a - The dividend.
+ * @param {number} b - The divisor.
+ * @returns {number} The quotient a / b.
+ * @throws {RangeError} If b is zero.
+ *
+ * @example
+ * divide(6, 3); // 2
+ */
+function divide(a, b) {
+  if (b === 0) {
+    throw new RangeError('Division by zero');
+  }
+  return a / b;
+}
+
+module.exports = { add, subtract, multiply, divide };
