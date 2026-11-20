@@ -1,3 +1,0 @@
-[submodule "hello-world"]
-	path = .agents/skills/with-submodule/vendor
-	url = https://github.com/octocat/Hello-World.git

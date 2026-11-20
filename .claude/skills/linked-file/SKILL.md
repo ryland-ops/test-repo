@@ -1,1 +1,0 @@
-../../../shared/linked-file-skill/SKILL.md
